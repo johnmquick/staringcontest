@@ -1,6 +1,6 @@
 ========================
-Cyclops Staring Contest
-John M. Quick
+Cyclops Staring Contest 
+John M. Quick 
 www.johnmquick.com
 ========================
 
@@ -11,26 +11,33 @@ DESCRIPTION
 Cyclops Staring Contest is an eye-controlled video game implemented using the Tobii EyeX Controller, Unity, and C#.
 
 ============
+INSTALLATION
+============
+
+To play Cyclops Staring Contest, copy the entire Releases > Cyclops_v1-0 folder to your Windows computer. Inside the Cyclops_v1-0 folder, run Cyclops.exe to launch the game. Do not modify any of the other files inside the Cyclops_v1-0 folder, as they are required for the game to run. 
+
+============
+HOW TO PLAY
+============
+
+From the main menu, you may toggle the controls that will be used during play. If you wish to use eye controls, make sure that your eye tracker is fully operational and calibrated prior to starting the game. During play, your gaze position will be determined by where you are looking on the screen. Alternatively, you may test the game using mouse controls. In this case, the position of the mouse cursor is used to determine where you are focused on the screen. The game is intended to be played with eye controls, but the mouse option is useful for debugging and testing when an eye tracker is not available. 
+
+Click on the Play button from the main menu to begin the game. 
+
+At the start of each round, the Cyclops will awaken and initiate the staring contest. The contest will begin once you look into the Cyclops' pupil. Your objective is to stay focused on the Cyclops' pupil without blinking or looking away. If you maintain focus longer than the Cyclops, you will win the round. If you blink or look away too soon, you will lose the round.
+
+After each round, you will be taken to a summary screen. Statistics for the latest round, as well as your total number of wins, will be displayed. From here, you can continue to the next round or return to the main menu. The more times you win and continue, the harder it will become to defeat the Cyclops. Alternatively, if you return to the main menu, your statistics will be reset and the game will begin anew.
+
+============
+MODIFICATION
+============
+
+The full source for Cyclops Staring Contest has been provided in the StaringContest folder. You may edit the project using Unity and any compatible code editor. You may also use Unity to export a version of the game to run on alternative platforms. 
+
+============
 COPYRIGHT
 ============
 
 Copyright 2014 John M. Quick
 
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-============
-TOBII EYEX SDK
-============
-
-Only the scripts in the EyeX folder, Tobii.EyeX.Client.dll, and the Tobii.EyeX.Client.Net20.dll belong to the Tobii EyeX SDK and have lawfully been incorporated into this software. For details on the governance of these files, see the Tobii EyeX SDK License Agreement, which is available from developer.tobii.com/license-agreement.
-
-============
-AUDIO
-============
-
-The background music was originally composed by Stratkat and has been lawfully incorporated into this software. See LICENSE_Stratkat.txt for details.
-The sound effects were generated using DrPetter's sfxr and have been lawfully incorporated into this software. See LICENSE_SFXR.txt for details.
+See LICENSE.md for detailed copyright information.
